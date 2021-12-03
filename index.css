@@ -1,1 +1,60 @@
 /* Write your code here. */
+.card{
+    display: flex;
+    flex-direction :column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+.mainHeading{
+    font-family: "Roboto";
+    font-weight: bold;
+    color: black;
+    
+}
+.infoStyle{
+    font-family: "Roboto";
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #0b69ff;
+    border-radius: 10px;
+    display: flex;
+    padding: 30px;
+    width: 1000px;
+    margin:20px;
+}
+.successStyle{
+    font-family: "Roboto";
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #2dca73;
+    border-radius: 10px;
+    display: flex;
+    padding: 30px;
+    width: 1000px;
+    margin:20px;
+}
+.warningStyle{
+    font-family: "Roboto";
+    font-size: 30px;
+    color: #ffffff;
+    background-color:#ffb800;
+    border-radius: 10px;
+    display: flex;
+    padding: 30px;
+    width: 1000px;
+    margin:20px;
+}
+.errorStyle{
+    font-family: "Roboto";
+    font-size: 30px;
+    color: #ffffff;
+    background-color:#ff0b37;
+    border-radius: 10px;
+    display: flex;
+    padding: 30px;
+    width: 1000px;
+    margin:20px;
+
+}
